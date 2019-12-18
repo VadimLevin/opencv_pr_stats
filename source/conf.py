@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
-project = u'OpenCV pull requests statistic'
+project = u'OpenCV pull requests statistics'
 copyright = u'2019, opencv'
 author = u'opencv'
 
