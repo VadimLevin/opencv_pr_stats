@@ -1,0 +1,3 @@
+# Historical Pull Requests trend
+## Overview
+![Historical changes distribution](_static/historical_changes_distribution.png)

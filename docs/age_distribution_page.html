@@ -16,6 +16,8 @@
     <script type="text/javascript" src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Changes distribution" href="changes_distribution_page.html" />
+    <link rel="prev" title="Problematic pull requests" href="problems_distribution_page.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -38,9 +40,16 @@
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li>Average age of the pull requests: 209 days</li>
-<li>Median age of the pull requests: 89 days</li>
+<li>Median age of the pull requests: 90 days</li>
 </ul>
-<p><img alt="Age distribution" src="_images/current_total_age_distribution.png" /></p>
+<div class="section" id="current-age-distribution">
+<h3>Current age distribution<a class="headerlink" href="#current-age-distribution" title="Permalink to this headline">¶</a></h3>
+<p><img alt="Age distribution" src="_images/total_age_distribution.png" /></p>
+</div>
+<div class="section" id="historical-age-distribution">
+<h3>Historical age distribution<a class="headerlink" href="#historical-age-distribution" title="Permalink to this headline">¶</a></h3>
+<p><img alt="Historical age distribution" src="_images/historical_age_distribution.png" /></p>
+</div>
 </div>
 <div class="section" id="age-distribution-by-categories">
 <h2>Age distribution by categories<a class="headerlink" href="#age-distribution-by-categories" title="Permalink to this headline">¶</a></h2>
@@ -89,7 +98,7 @@
 <li><a class="reference external" href="https://github.com/opencv/opencv/pull/16222">PR#16222</a>: Android move version info to Gradle style
 <br/>   <strong>Age</strong>: 1 day<br/>
 <strong>Labels</strong>: []<br/>
-<strong>Categories</strong>: (‘java bindings’, ‘infrastructure’)</li>
+<strong>Categories</strong>: (‘infrastructure’, ‘java bindings’)</li>
 </ul>
 <hr class="docutils" />
 <ul class="simple">
@@ -310,9 +319,9 @@
 <hr class="docutils" />
 <ul class="simple">
 <li><a class="reference external" href="https://github.com/opencv/opencv/pull/15599">PR#15599</a>: Adding some MSA specific optimizations for imgproc/video/vidoeio/dnn …
-<br/>   <strong>Age</strong>: 89 days<br/>
+<br/>   <strong>Age</strong>: 90 days<br/>
 <strong>Labels</strong>: [‘Label(name=optimization, description=None, type=LabelType.ChangesType)’]<br/>
-<strong>Categories</strong>: (‘dnn’, ‘imgproc’, ‘core’, ‘videoio’, ‘video’)</li>
+<strong>Categories</strong>: (‘video’, ‘imgproc’, ‘core’, ‘videoio’, ‘dnn’)</li>
 </ul>
 <hr class="docutils" />
 <ul class="simple">
@@ -368,7 +377,7 @@
 <li><a class="reference external" href="https://github.com/opencv/opencv/pull/15240">PR#15240</a>: Samples and tutorials for the Dnn High Level API
 <br/>   <strong>Age</strong>: 141 days<br/>
 <strong>Labels</strong>: []<br/>
-<strong>Categories</strong>: (‘samples’, ‘documentation’)</li>
+<strong>Categories</strong>: (‘documentation’, ‘samples’)</li>
 </ul>
 <hr class="docutils" />
 <ul class="simple">
@@ -389,7 +398,7 @@
 <li><a class="reference external" href="https://github.com/opencv/opencv/pull/14971">PR#14971</a>: multi-images + meta-properties
 <br/>   <strong>Age</strong>: 174 days<br/>
 <strong>Labels</strong>: []<br/>
-<strong>Categories</strong>: (‘imgcodecs’, ‘core’, ‘python bindings’, ‘infrastructure’, ‘java bindings’)</li>
+<strong>Categories</strong>: (‘python bindings’, ‘infrastructure’, ‘core’, ‘imgcodecs’, ‘java bindings’)</li>
 </ul>
 </div>
 <div class="section" id="pull-requests-with-age-180-365-days">
@@ -470,7 +479,7 @@
 <li><a class="reference external" href="https://github.com/opencv/opencv/pull/13368">PR#13368</a>: Support of Unicode file paths under Windows
 <br/>   <strong>Age</strong>: 384 days<br/>
 <strong>Labels</strong>: []<br/>
-<strong>Categories</strong>: (‘imgcodecs’, ‘core’, ‘python bindings’)</li>
+<strong>Categories</strong>: (‘core’, ‘python bindings’, ‘imgcodecs’)</li>
 </ul>
 <hr class="docutils" />
 <ul class="simple">
@@ -554,7 +563,7 @@
 <li><a class="reference external" href="https://github.com/opencv/opencv/pull/10131">PR#10131</a>: JUST TEST
 <br/>   <strong>Age</strong>: 762 days<br/>
 <strong>Labels</strong>: [‘Label(name=pr: reproducer, description=Reproduces some bug, not expected to be merged, type=LabelType.Reproducer)’]<br/>
-<strong>Categories</strong>: (‘imgproc’, ‘core’)</li>
+<strong>Categories</strong>: (‘core’, ‘imgproc’)</li>
 </ul>
 <hr class="docutils" />
 <ul class="simple">
@@ -575,7 +584,7 @@
 <li><a class="reference external" href="https://github.com/opencv/opencv/pull/6722">PR#6722</a>: OpenCV addons
 <br/>   <strong>Age</strong>: 1279 days<br/>
 <strong>Labels</strong>: []<br/>
-<strong>Categories</strong>: (‘core’, ‘video’, ‘build/install’, ‘python bindings’)</li>
+<strong>Categories</strong>: (‘video’, ‘core’, ‘build/install’, ‘python bindings’)</li>
 </ul>
 </div>
 </div>
@@ -598,9 +607,26 @@
 
 
 <h3>Navigation</h3>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="problems_distribution_page.html">Problematic pull requests</a></li>
-<li class="toctree-l1"><a class="reference internal" href="age_distribution_page.html">Age distribution</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Age distribution</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#current-age-distribution">Current age distribution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#historical-age-distribution">Historical age distribution</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#age-distribution-by-categories">Age distribution by categories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#age-distribution-by-age-categories">Age distribution by age categories</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pull-requests-with-age-7-days">Pull Requests with age: &lt; 7 days</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pull-requests-with-age-7-14-days">Pull Requests with age: 7-14 days</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pull-requests-with-age-14-31-days">Pull Requests with age: 14-31 days</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pull-requests-with-age-31-180-days">Pull Requests with age: 31-180 days</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pull-requests-with-age-180-365-days">Pull Requests with age: 180-365 days</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pull-requests-with-age-365-days">Pull Requests with age: &gt; 365 days</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="changes_distribution_page.html">Changes distribution</a></li>
 <li class="toctree-l1"><a class="reference internal" href="categories_distribution_page.html">Categories distribution</a></li>
 </ul>
@@ -609,6 +635,8 @@
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="problems_distribution_page.html" title="previous chapter">Problematic pull requests</a></li>
+      <li>Next: <a href="changes_distribution_page.html" title="next chapter">Changes distribution</a></li>
   </ul></li>
 </ul>
 </div>
@@ -644,7 +672,7 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="_sources/age_distribution.md.txt"
+      <a href="_sources/age_distribution_page.md.txt"
           rel="nofollow">Page source</a>
     </div>
 

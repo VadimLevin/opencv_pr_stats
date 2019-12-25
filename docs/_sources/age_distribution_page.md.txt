@@ -1,9 +1,12 @@
 # Age distribution
 ## Overview
  - Average age of the pull requests: 209 days
- - Median age of the pull requests: 89 days
+ - Median age of the pull requests: 90 days
 
-![Age distribution](_static/current_total_age_distribution.png)
+### Current age distribution
+![Age distribution](_static/total_age_distribution.png)
+### Historical age distribution
+![Historical age distribution](_static/historical_age_distribution.png)
 ## Age distribution by categories
 ![Age distribution by categories](_static/categories_age_distribution.png)
 ## Age distribution by age categories
@@ -36,7 +39,7 @@
  - [PR#16222](https://github.com/opencv/opencv/pull/16222): Android move version info to Gradle style
 <br/>   __Age__: 1 day<br/>
    __Labels__: []<br/>
-   __Categories__: ('java bindings', 'infrastructure')
+   __Categories__: ('infrastructure', 'java bindings')
 ---
  - [PR#16221](https://github.com/opencv/opencv/pull/16221): G-API: Fix G_TYPED_KERNEL_M macro
 <br/>   __Age__: 2 days<br/>
@@ -189,9 +192,9 @@
    __Categories__: ('calib3d',)
 ---
  - [PR#15599](https://github.com/opencv/opencv/pull/15599): Adding some MSA specific optimizations for imgproc/video/vidoeio/dnn …
-<br/>   __Age__: 89 days<br/>
+<br/>   __Age__: 90 days<br/>
    __Labels__: ['Label(name=optimization, description=None, type=LabelType.ChangesType)']<br/>
-   __Categories__: ('dnn', 'imgproc', 'core', 'videoio', 'video')
+   __Categories__: ('video', 'imgproc', 'core', 'videoio', 'dnn')
 ---
  - [PR#15596](https://github.com/opencv/opencv/pull/15596): Improve copymask and implement SIMD extensions
 <br/>   __Age__: 90 days<br/>
@@ -231,7 +234,7 @@
  - [PR#15240](https://github.com/opencv/opencv/pull/15240): Samples and tutorials for the Dnn High Level API
 <br/>   __Age__: 141 days<br/>
    __Labels__: []<br/>
-   __Categories__: ('samples', 'documentation')
+   __Categories__: ('documentation', 'samples')
 ---
  - [PR#15214](https://github.com/opencv/opencv/pull/15214): WIP: imgproc: templmatch: Add support for mask for all methods 
 <br/>   __Age__: 143 days<br/>
@@ -246,7 +249,7 @@
  - [PR#14971](https://github.com/opencv/opencv/pull/14971): multi-images + meta-properties
 <br/>   __Age__: 174 days<br/>
    __Labels__: []<br/>
-   __Categories__: ('imgcodecs', 'core', 'python bindings', 'infrastructure', 'java bindings')
+   __Categories__: ('python bindings', 'infrastructure', 'core', 'imgcodecs', 'java bindings')
 ### Pull Requests with age: 180-365 days
  - [PR#14666](https://github.com/opencv/opencv/pull/14666): Python code examples for file IO in xml and yml format
 <br/>   __Age__: 210 days<br/>
@@ -301,7 +304,7 @@
  - [PR#13368](https://github.com/opencv/opencv/pull/13368): Support of Unicode file paths under Windows
 <br/>   __Age__: 384 days<br/>
    __Labels__: []<br/>
-   __Categories__: ('imgcodecs', 'core', 'python bindings')
+   __Categories__: ('core', 'python bindings', 'imgcodecs')
 ---
  - [PR#13068](https://github.com/opencv/opencv/pull/13068): objdetect: 'const' correctness
 <br/>   __Age__: 412 days<br/>
@@ -361,7 +364,7 @@
  - [PR#10131](https://github.com/opencv/opencv/pull/10131): JUST TEST
 <br/>   __Age__: 762 days<br/>
    __Labels__: ['Label(name=pr: reproducer, description=Reproduces some bug, not expected to be merged, type=LabelType.Reproducer)']<br/>
-   __Categories__: ('imgproc', 'core')
+   __Categories__: ('core', 'imgproc')
 ---
  - [PR#9123](https://github.com/opencv/opencv/pull/9123): Support CV_CAP_MODE_GRAY in FFMPEG backend
 <br/>   __Age__: 899 days<br/>
@@ -376,4 +379,4 @@
  - [PR#6722](https://github.com/opencv/opencv/pull/6722): OpenCV addons
 <br/>   __Age__: 1279 days<br/>
    __Labels__: []<br/>
-   __Categories__: ('core', 'video', 'build/install', 'python bindings')
+   __Categories__: ('video', 'core', 'build/install', 'python bindings')

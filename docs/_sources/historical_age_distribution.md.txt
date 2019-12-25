@@ -1,0 +1,3 @@
+# Historical Pull Requests age distribution
+## Overview
+![Historical age distribution](_static/historical_age_distribution.png)
